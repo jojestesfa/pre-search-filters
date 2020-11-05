@@ -1,0 +1,665 @@
+iframe body{font-family: arial; font-size: 19px !important;}
+.js-enabled {
+	.homepage-top {
+		#header-search {
+			background: #fff;
+			
+		}
+	}
+}
+.homepage-top {
+	#header-search {
+		position: relative;
+		margin-bottom: 30px
+	}
+}
+@media (min-width: 641px) {
+    .js-enabled .homepage-top label {
+        font-size:19px;
+        line-height: 1.3157894737
+    }
+
+
+
+    .homepage-top .content-container {
+        margin: 0
+    }
+}
+
+@media (min-width: 769px) {
+    .sixty {
+        width:60%;
+        float: left
+    }
+
+    .forty {
+        width: 40%;
+        float: left
+    }
+
+    .homepage-top .content-container {
+        max-width: 960px;
+        margin: 0 auto
+    }
+}
+.js-enabled .homepage-top label {
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 40px!important;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    z-index: 5;
+    text-indent: 15px;
+    color: #6f777b;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    padding-right: 43px;
+    overflow: hidden
+}
+
+.js-enabled .homepage-top .search-input {
+    background: #fff;
+}
+.homepage-top .search-input-wrapper {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 40px;
+    margin-right: -40px;
+    float: left;
+    width: 100%
+}
+
+
+.js-enabled .homepage-top .search-input.focus,.js-enabled .homepage-top .search-input:focus {
+    background: #fff
+}
+@media (min-width: 641px) {
+    .homepage-top .search-input {
+        font-size:19px;
+        line-height: 1.3157894737
+    }
+}
+@media (min-width: 641px) {
+    .js-enabled .homepage-top label {
+        font-size:19px;
+        line-height: 1.3157894737
+    }
+
+
+
+    .homepage-top .content-container {
+        margin: 0
+    }
+}
+.homepage-top .search-input {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 10;
+    width: 100%;
+    padding: 6px;
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0;
+    border: 0;
+    outline-offset: 0;
+    height: 40px;
+    background-color: #fff
+}
+
+.homepage-top .search-input:focus {
+    z-index: 1000
+}
+
+.homepage-top .submit,
+.js-live-search-form.site-search .submit{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 50000px;
+    background: url(/public/images/icon-search-2x.png) 60% 50%/24px no-repeat #0b0c0c;
+    float: left;
+    padding: 6px;
+    border: 0;
+    color: #fff;
+    z-index: 900;
+    position: relative
+}
+.homepage-top #header-search {
+    position: relative;
+    margin-bottom: 30px;
+	overflow:hidden;
+}
+
+@media (min-width: 750px) {
+    .job-profile-hero .column-40,.secondary-hero .column-40 {
+        width:40%
+    }
+
+
+}
+
+.job-profile-related .govuk-heading-m,.job-profile-related h3,.job-profile-sidebar .govuk-heading-m,.job-profile-sidebar h3 {
+    margin-top: .75em;
+    margin-bottom: .5em
+}
+.list-big {
+    list-style: none !important;
+    padding: 0 !important;
+    margin-top: 5px;
+    margin-bottom: 20px
+}
+
+.list-big li {
+    font-family: "GDS Transport",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0!important
+}
+
+@media (min-width: 40.0625em) {
+    .list-big li {
+        font-size:1.1875rem;
+        line-height: 1.3157894737
+    }
+}
+
+@media print {
+    .list-big li {
+        font-family: sans-serif;
+        font-size: 14pt;
+        line-height: 1.15
+    }
+}
+
+.list-big li a {
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #bfc1c3;
+    text-decoration: none;
+	
+	
+}
+.list-big li:last-child a {  border-bottom: 0px solid #bfc1c3;}
+
+@media (min-width: 641px) {
+    .column-third aside:first-child {
+        margin-top:34px
+    }
+
+    .list-big li a {
+        padding: 10px 0
+    }
+}
+
+.list-big li a:hover {
+    text-decoration: underline
+}
+
+.list-link {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.list-link li:before {
+    content: "";
+    border: solid #005ea5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 10px
+}
+
+
+
+
+.search-title {
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+	font-weight: normal;
+}
+
+.search-header {
+    position: relative;
+    margin: 0;
+    padding: 10px 0 15px;
+    overflow: visible
+}
+
+@media (min-width: 641px) {
+    .homepage-jobcategories a {
+        font-size:19px;
+        line-height: 1.3157894737
+    }
+
+    .search-title {
+        font-size: 19px;
+        line-height: 1.25;
+    }
+
+    .search-header {
+        padding: 20px 0 30px;
+        width: 66.666%
+    }
+}
+
+.search-header .searchfield {
+    position: relative
+}
+
+.search-header .search-input {
+    position: static;
+    margin: 0;
+	
+}
+.search-header .search-input input {padding-left: 10px !important;}
+.search-header .search-submit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    overflow: visible
+}
+
+.search-header input {
+    border: 1px solid #bfc1c3;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25;
+    font-size-adjust: .5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0 50px 0 10px;
+    display: block;
+    height: 50px;
+    border-right: none
+}
+
+.search-header button {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none!important;
+    position: absolute !important;
+    z-index: 4 !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    border: none !important;
+    overflow: hidden !important;
+    text-indent: 50000px !important;
+    color: #fff !important;
+    background: url(/public/images/icon-search-2x.png) 60% 50%/24px no-repeat #2b8cc4 !important;
+    cursor: pointer !important
+}
+
+.search-header button:hover {
+    background-color: #267daf
+}
+
+.search-header button:focus {
+    background-color: #2b8cc4
+}
+
+.search-header button:active {
+    top: 0
+}
+
+.search-header .search-dym {
+    margin-top: .5em;
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25
+}
+
+
+#results .results-block .result-count {
+    padding: 0
+}
+
+#results .results-block .results-list {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0
+}
+
+#results .results-block .results-list li {
+    max-width: 32.5em;
+    margin: 0;
+    padding: 0 0 15px
+}
+
+#results .results-block .results-list h3 {
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 0 .25em
+}
+
+#results .results-block .results-list h3 a {
+    text-decoration: none;
+    font-weight: 700
+}
+
+#results .results-block .results-list .result-description {
+    margin: 0 0 .5em;
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.25
+}
+
+@media (min-width: 641px) {
+    .search-header .search-dym,.search-header input {
+        font-size:19px;
+        line-height: 1.3157894737
+    }
+
+    #results .results-block .results-list li {
+        padding: 0 0 40px
+    }
+
+    #results .results-block .results-list h3 {
+        font-size: 24px;
+        line-height: 1.25
+    }
+
+    #results .results-block .results-list .result-description {
+        font-size: 19px;
+        line-height: 1.3157894737
+    }
+}
+
+#results .results-block .results-list .meta {
+    color: #6f777b;
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 1.1428571429
+}
+
+#results .results-block .results-list .results-salary {
+    margin-bottom: .75em; 
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#results .results-block .results-list .results-categories a:after {
+    content: ","
+}
+
+#results .results-block .results-list .results-categories a:last-child:after {
+    display: none
+}
+
+.ui-autocomplete {
+    background-color: #fff;
+    color: #0b0c0c;
+    border: 1px solid #bfc1c3;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(100% - 40px);
+    top: 100%;
+    z-index: 500
+}
+
+.ui-autocomplete li {
+    padding: 0;
+    margin: 0;
+    font-size: 19px
+}
+
+.ui-autocomplete li div {
+    padding: 5px 10px;
+    border-bottom: 1px solid #dee0e2
+}
+
+.ui-autocomplete li div:hover {
+    background-color: #dee0e2;
+    cursor: pointer
+}
+
+.ui-autocomplete li .ui-state-active {
+    background-color: #dee0e2
+}
+
+.ui-autocomplete li:last-child div {
+    border: none
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.previous-next-navigation {
+    margin: 0;
+    padding: 0
+}
+
+.previous-next-navigation li {
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 12px;
+    line-height: 1.25;
+    float: left;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    width: 49%
+}
+
+.previous-next-navigation li a,.previous-next-navigation li button {
+    background-color: transparent;
+    display: block;
+    color: #005ea5;
+    text-decoration: none;
+    border: none
+}
+
+.previous-next-navigation li a:active,.previous-next-navigation li a:hover,.previous-next-navigation li button:active,.previous-next-navigation li button:hover {
+    background-color: #f8f8f8
+}
+
+.previous-next-navigation li a:hover .page-numbers,.previous-next-navigation li button:hover .page-numbers {
+    text-decoration: underline
+}
+
+.previous-next-navigation li a .pagination-label,.previous-next-navigation li button .pagination-label {
+    font-family: nta,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 1.1111111111;
+    margin-bottom: .1em;
+    display: block
+}
+
+@media (min-width: 641px) {
+    #results .results-block .results-list .meta {
+        font-size:16px;
+        line-height: 1.25
+    }
+
+    .previous-next-navigation li {
+        font-size: 16px;
+        line-height: 1.25
+    }
+
+    .previous-next-navigation li a .pagination-label,.previous-next-navigation li button .pagination-label {
+        font-size: 27px;
+        line-height: 1.25
+    }
+}
+
+.previous-next-navigation li.next {
+    float: right;
+    text-align: right;
+    border: none
+}
+
+@media (max-width: 640px) {
+    #results {
+        width:100%
+    }
+
+    .previous-next-navigation li.next {
+        float: right;
+        width: 50%
+    }
+}
+
+.previous-next-navigation li.next a,.previous-next-navigation li.next button {
+    padding: 15px 35px 15px 0;
+    text-align: right;
+    float: right;
+    border: none
+}
+
+.previous-next-navigation li.next a:before,.previous-next-navigation li.next button:before {
+    background: url(/public/images/search/arrow-sprite.png) -102px -11px no-repeat;
+    margin: -4px -32px 0 0;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 38px;
+    content: " "
+}
+
+.previous-next-navigation li.previous {
+    float: left;
+    text-align: left;
+    border: none
+}
+
+@media (max-width: 640px) {
+    .previous-next-navigation li.previous {
+        float:right;
+        width: 50%
+    }
+}
+
+.previous-next-navigation li.previous a,.previous-next-navigation li.previous button {
+    padding: 15px 0 15px 35px;
+    float: left;
+    border: none
+}
+
+.previous-next-navigation li.previous a:before,.previous-next-navigation li.previous button:before {
+    background: url(/public/images/arrow-sprite.png) -20px -11px no-repeat;
+    margin: -4px 0 0 -32px;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 38px;
+    content: " "
+}
+
+.previous-next-navigation .first,.previous-next-navigation .last {
+    min-height: 4.5em
+}
+
+.previous-next-navigation .first .span,.previous-next-navigation .last .span {
+    display: block;
+    min-height: 4.5em;
+    padding: .75em 5%;
+    width: 90%
+}
+
+.previous-next-navigation .first .pagination-label,.previous-next-navigation .last .pagination-label {
+    display: block;
+    margin-bottom: .5em
+}
+.search-header .button:before {
+    content: "";
+    height: 110%;
+    width: 100%;
+    display: block;
+    background: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.search-header .button:active:before {
+    top: -10%;
+    height: 120%
+}
+main #results .results-block .results-list {padding: 0 !important}
+#results .visuallyhidden {display: none;}
+
+.govuk-caption-m {
+    font-family: "GDS Transport",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    display: block;
+    color: #626a6e
+}
+
+@media (min-width: 40.0625em) {
+    .govuk-caption-m {
+        font-size:1.1875rem;
+        line-height: 1.3157894737
+    }
+}
+
+@media print {
+    .govuk-caption-m {
+        font-family: sans-serif;
+        font-size: 14pt;
+        line-height: 1.15
+    }
+}
+
